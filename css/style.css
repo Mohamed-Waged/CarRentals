@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Global */
+.title{
+    margin: 50px auto;
+    text-align: center;
+}
+.title h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.title p{
+    color: rgb(107, 102, 102);
+}
+/* Start Home */
+.home{
+    height: 100vh;
+    color: white;
+    background-image: url(../Images/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home .overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.home .overlay .header{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.home .overlay .header .logo{
+    float: left;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.home .overlay .header .links ul{
+    float: right;
+    margin: 15px 0;
+}
+.home .overlay .header .links li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.home .overlay .header .links a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.home .overlay .header .links .active
+,.home .overlay .header .links a:hover{
+    color: #f9b700;
+}
+.home .overlay .home-content{
+    width: 80%;
+    margin: 0px auto;
+    overflow: auto;
+}
+.home .overlay .home-content .content-information{
+    width: 60%;
+    margin-top: 100px;
+    padding: 100px 50px;
+    float: left;
+}
+.home .overlay .home-content .content-information h1{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.home .overlay .home-content .content-information button{
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9b700;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.home .overlay .home-content .content-card{
+    width: 40%;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #2949755c;
+    border-radius: 8px;
+    float: left;
+}
+.home .overlay .home-content .content-card p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home .overlay .home-content .content-card select ,
+.home .overlay .home-content .content-card input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    height: 30px;
+    border-radius: 4px;
+    border: transparent;
+}
+.home .overlay .home-content .content-card .sub{
+    background-color: #f9b700;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* End Home */
+/* Start Services */
+.Service .Service-content{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.Service .Service-content .Services{
+    width: calc((100% - 40px ) / 3 );
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    background-color: #ededf7;
+    border-radius: 10px;
+    float: left;
+}
+.Service .Service-content .md{
+    margin: 0 20px;
+}
+.Service .Service-content .Services i{
+    float: left;
+    font-size: 20px;
+    color: rgb(58 55 55);
+}
+.Service .Service-content .Services p{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.Service .Service-content .Services span{
+    color: rgb(107, 102, 102);
+    line-height: 1.4;
+}
+/* Start Product-one */
+.product-one .product-content{
+    width: 80%;
+    margin: 80px auto;
+    overflow: auto;
+}
+.product-one .product-content .product-img{
+    width: 50%;
+    float: left;
+}
+.product-one .product-content .product-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.product-one .product-content .product-info{
+    width: 50%;
+    padding: 40px 0px 40px 50px;
+    float: left;
+}
+.product-one .product-content .product-info h2{
+    width: 80%;
+    font-size: 35px;
+}
+.product-one .product-content .product-info span{
+    display: inline-block;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.product-one .product-content .product-info p{
+    line-height: 1.4;
+    text-align: justify;
+    color: rgb(107, 102, 102);
+}
+.product-one .product-content .product-info button{
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f9b700;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* End Product-one */
+/* Start Product-Two */
+.product-two .product-two-content{
+    width: 80%;
+    margin: 80px auto;
+    overflow: auto;
+}
+.product-two .product-two-content .product-two-info{
+    width: 50%;
+    float: left;
+    padding:50px;
+    padding-left: 0;
+}
+.product-two .product-two-content .product-two-info h3{
+    display: inline-block;
+}
+.product-two .product-two-content .product-two-info span{
+    color: #f9b700;
+    float: right;
+    font-weight: bold;
+}
+.product-two .product-two-content .product-two-info p{
+    line-height: 1.4;
+    margin: 30px 0;
+    color: rgb(107, 102, 102);
+    text-align: justify;
+}
+.product-two .product-two-content .product-two-info button{
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.product-two .product-two-content .product-two-img{
+    width: 50%;
+    float: left;
+}
+.product-two .product-two-content .product-two-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+/* End Product-Two */
+/*  Start callation  */
+.callaction{
+    height: 300px;
+    background-image: url(../Images/callaction-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.callaction .callaction-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 3, 49, 0.7);
+}
+.callaction .callaction-overlay .callaction-content{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.callaction .callaction-overlay .callaction-content h2{
+    font-size: 40px ;
+    color: white;
+}
+.callaction .callaction-overlay .callaction-content p{
+    width: 70%;
+    line-height: 1.5;
+    margin: 20px auto;
+    color: rgb(190, 187, 187);
+}
+.callaction .callaction-overlay .callaction-content button{
+    width: 250px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    color: #f9b700;
+    border-color:#f9b700 ;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/*  End callaction  */
+/* Start Gallery */
+.gallery .gallery-content{
+    width: 80%;
+    margin:  auto;
+    overflow: auto;
+}
+.gallery .gallery-content .gallers{
+    width: calc(94% / 4);
+    float: left;
+    margin-bottom: 50px;
+}
+.gallery .gallery-content .mr{
+    margin-right: 2%;
+}
+.gallery .gallery-content .gallers img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.gallery .gallery-content .gallers .price{
+    width: 50%;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+.gallery .gallery-content .gallers h5{
+    font-size: 16px;
+}
+.gallery .gallery-content .gallers p{
+    line-height: 1.4;
+    margin: 10px 0;
+    color: rgb(107, 102, 102);
+    text-align: justify;
+}
+/* End Gallery */
+/* Start Footer */
+.foot{
+    color: white;
+    background-color: #04091d;
+    padding: 1PX;
+}
+.foot .foot-content{
+    width: 80%;
+    margin:100PX auto;
+    overflow: auto;
+}
+.foot .foot-content .col{
+    width: 20%;
+    float: left;
+}
+.foot .foot-content .col h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.foot .foot-content .col p{
+    line-height: 1.6;
+    color: rgb(107, 102, 102);
+}
+.foot .foot-content .col img{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.foot .foot-content .col input{
+    width: 100%;
+    padding: 4px;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.foot .copy{
+    text-align: center;
+    line-height: 1.5;
+}
+.foot .copy span{
+    color: #f9b700;
+}
+/* End Footer */
